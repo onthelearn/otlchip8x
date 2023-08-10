@@ -37,5 +37,5 @@ A S D F => 7 8 9 E
 Z X C V => A 0 B F
 ```
 
-## Extra Info
-1) Space Invades : change CHIPMODE to 2 or 4 in configuration file.
+## Tips
+1) Space Invaders : change CHIPMODE to 2 or 4 in configuration file.

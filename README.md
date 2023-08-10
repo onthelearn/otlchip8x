@@ -23,7 +23,8 @@ g++ -o otlchip8x main.cpp `sdl2-config --cflags --libs`
 ```
 4) Provide rom as argument or drag and drop
 5) Change configuration file as needed
-Links to ROM:
+
+##Roms:
 
 Huge collection of roms hosted by [kripod](https://github.com/kripod/chip8-roms)
 

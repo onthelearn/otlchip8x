@@ -21,7 +21,10 @@ sudo apt-get install libsdl2-dev g++
 ```
 g++ -o otlchip8x main.cpp `sdl2-config --cflags --libs`
 ```
-4) Provide rom as argument or drag and drop
+4) Provide rom as argument to otlchip8x or drag and drop if feature available
+```
+./otlchip8x "<your_rom_file_(name|path)>"
+```  
 5) Change configuration file as needed
 
 ## Roms:
@@ -37,6 +40,17 @@ Q W E R => 4 5 6 D
 A S D F => 7 8 9 E
 Z X C V => A 0 B F
 ```
-
+```
+ESC key   :  quit
+Backspace : reset/refresh/reload, any change in configuration will be loaded.
+```
+## Configuration
+```
+ENABLE_DELAY    : enable or disable emulation speed(cpu frequency) limit
+FREQUENCY_CPU   : cpu frequency limit to use if delay enabled
+SCALE_FACTOR    : length of a square pixel on the window. 64x32 pixels displayed on window.
+FRAME_RATE      : Display update rate. Frames per seconds
+CHIP_MODE       : 1)COSMACVIP, 2)CHIP48, 4)SUPERCHIP, only some difference inplemented :: Flag register update, Index register update, etc
+```
 ## Tips
 1) Space Invaders : change CHIPMODE to 2 or 4 in configuration file.

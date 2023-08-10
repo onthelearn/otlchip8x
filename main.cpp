@@ -161,11 +161,11 @@ void loadConfig()
 		config = fopen("config.txt", "r");
 	}
 
-	fscanf_s(config, "%*s %d", &enableDelay);
-	fscanf_s(config, "%*s %d", &frequencyCPU);
-	fscanf_s(config, "%*s %d", &scaleFactor);
-	fscanf_s(config, "%*s %d", &frameRate);
-	fscanf_s(config, "%*s %hhu", &mode);
+	fscanf(config, "%*s %d", &enableDelay);
+	fscanf(config, "%*s %d", &frequencyCPU);
+	fscanf(config, "%*s %d", &scaleFactor);
+	fscanf(config, "%*s %d", &frameRate);
+	fscanf(config, "%*s %hhu", &mode);
 
 	fclose(config);
 

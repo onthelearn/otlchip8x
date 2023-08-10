@@ -147,7 +147,7 @@ void loadConfig()
 	FILE* config = fopen("config.txt", "r");
 	if (config == NULL)//create if does not exist
 	{
-		config = fopen("config.txt", "r");
+		config = fopen("config.txt", "w+");
 		if (config == NULL) { quit = 1; return; }
 
 		//write configuration structure to text

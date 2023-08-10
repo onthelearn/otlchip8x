@@ -26,7 +26,8 @@ g++ -o otlchip8x main.cpp `sdl2-config --cflags --libs`
 
 ## Roms:
 
-Huge collection of roms hosted by [kripod](https://github.com/kripod/chip8-roms)
+Huge collection of roms hosted by [Kripod](https://github.com/kripod/chip8-roms)
+
 Some tests by [Timendus](https://github.com/Timendus/chip8-test-suite)
 ## Keymap
 QWERTY(or same key position as QWERTY)  => Hex Value recognized by Chip8
